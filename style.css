@@ -44,16 +44,30 @@ nav{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 		#about { display:flow-root; align-items:centre; gap: 50px; flex-wrap: wrap; }
-		.image{
-		display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-	border-image-outset: 0cqb;
-    shape-image-threshold: inherit;
-	position: relative;
-    align-items: left;
+		
 		}
+.image1{
+	width:200px;
+	height:310px;
+	overflow: hidden;
+	border-radius:20% 20% 0 0;
+	top: 180px; 
+    right: 180px; 
+    z-index: 1;
+}
+
+       .image img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    box-shadow: 20px 20px 5px rgba(0, 0, 0, 0.3);
+	   }
+    
+    
+
+	
+
+	
 
 		#skills{
 	background:#82004c;
@@ -78,4 +92,5 @@ nav{
     cursor: pointer;
 
 }
+
 
