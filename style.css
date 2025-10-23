@@ -1,4 +1,4 @@
-av{
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -166,3 +166,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
