@@ -19,14 +19,43 @@ nav{
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-		body{
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color:#DFBBB1;
-    color :#373F51;
-    line-height: 1.6;
-}
+		body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: var(--dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+
+         header {
+            background: linear-gradient(135deg, var(--dark) 0%, var(--dark-light) 100%);
+            color: white;
+            padding: 100px 0 80px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('images.png');
+            background-size: cover;
+            opacity: 0.3;
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
 		section {
     padding: 40px 20px;
     margin: 20px;
@@ -43,15 +72,26 @@ nav{
     margin-bottom: 10px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-		#about { display:flow-root; align-items:centre; gap: 50px; flex-wrap: wrap; }
+		#about { 
+            display:flow-root; align-items:centre; gap: 50px; flex-wrap: wrap;
+        text-align: center; 
+     }
+        
+
+     #projects{
+    text-align: center; 
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+    }
 		
 		}
-.image1{
+.image{
 	width:200px;
 	height:310px;
 	overflow: hidden;
 	border-radius:20% 20% 0 0;
-	top: 180px; 
+	top: 370px; 
     right: 180px; 
     z-index: 1;
 }
@@ -62,20 +102,29 @@ nav{
     object-fit: cover;
     box-shadow: 20px 20px 5px rgba(0, 0, 0, 0.3);
 	   }
-    
-    
 
-	
 
-	
+    #git{
+    width: 200px;
+    height: 200px;  
+    overflow: hidden;
+    box-shadow: #333 20px 10px 5px rgba(0, 0, 0, 0.3);
+    position: relative;
+    left:120px;
+    }
 
-		#skills{
-	background:#82004c;
-    color: #fff;
+		#skills
+{
+	background:lightslategray;
+    color:black;
     padding: 10px 15px;
     border-radius: 20px;
-    margin: 5px;
+    margin: 20px;
+    position: relative;
+    left:300px
     display: inline-block;
+    text-decoration:khaki;
+    text-align: center;
 }
 		#contact input {
     padding: 10px;
@@ -92,5 +141,21 @@ nav{
     cursor: pointer;
 
 }
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+
 
 
