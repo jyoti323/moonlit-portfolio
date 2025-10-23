@@ -5,6 +5,8 @@ nav{
     padding: 20px;
     background-color: #333;
     color: white;
+	position:relative;
+	z-index:10;
 }
     .link a{
      text-decoration: none;
@@ -166,4 +168,5 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 
