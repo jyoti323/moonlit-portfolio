@@ -1,4 +1,4 @@
-nav{
+av{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,20 +6,23 @@ nav{
     background-color: #333;
     color: white;
 }
-        .link a{
-	text-decoration: none;
+    .link a{
+     text-decoration: none;
     color: #fff;
     padding: 10px 20px;
     background: #4b0082;
     border-radius: 20px;
     transition: background 0.3s;
 }
+
+
 		.logo{
     font-size: 24px;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-		body {
+
+        body {
             font-family: 'Poppins', sans-serif;
             background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
             color: var(--dark);
@@ -27,8 +30,7 @@ nav{
             overflow-x: hidden;
         }
 
-
-         header {
+       header {
             background: linear-gradient(135deg, var(--dark) 0%, var(--dark-light) 100%);
             color: white;
             padding: 100px 0 80px;
@@ -56,6 +58,7 @@ nav{
             justify-content: space-between;
             flex-wrap: wrap;
         }
+
 		section {
     padding: 40px 20px;
     margin: 20px;
@@ -76,33 +79,42 @@ nav{
             display:flow-root; align-items:centre; gap: 50px; flex-wrap: wrap;
         text-align: center; 
      }
-        
 
-     #projects{
+
+
+    #projects{
     text-align: center; 
     border-radius: 50px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 
     }
-		
-		}
-.image{
-	width:200px;
-	height:310px;
-	overflow: hidden;
-	border-radius:20% 20% 0 0;
-	top: 370px; 
+
+
+    #projects ul{
+        list-style-type: disc;
+        list-style-position: inside;
+        margin-left: 20px;
+
+    }
+		.image {
+    width: 200px;
+    height: 310px;
+    border-radius: 20% 20% 0 0;
+    overflow: hidden; 
+    position: absolute; 
+    top: 370px; 
     right: 180px; 
     z-index: 1;
+    
 }
-
-       .image img {
+        .image img {
     width: 100%;
     height: 70%;
     object-fit: cover;
     box-shadow: 20px 20px 5px rgba(0, 0, 0, 0.3);
-	   }
-
+    
+    
+}
 
     #git{
     width: 200px;
@@ -113,8 +125,7 @@ nav{
     left:120px;
     }
 
-		#skills
-{
+		#skills{
 	background:lightslategray;
     color:black;
     padding: 10px 15px;
@@ -123,9 +134,14 @@ nav{
     position: relative;
     left:300px
     display: inline-block;
-    text-decoration:khaki;
+
+    
     text-align: center;
 }
+
+
+
+    
 		#contact input {
     padding: 10px;
     border: none;
@@ -139,13 +155,7 @@ nav{
     border-radius: 20px;
     color: #fff;
     cursor: pointer;
-
 }
-
-
-
-
-
 
 footer {
     background-color: #333;
@@ -156,6 +166,3 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
-
-
